@@ -86,3 +86,37 @@ h1{
     z-index: 2;
 }
 
+/*BIG CONTAINER*/
+
+.big-container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.big-container{
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+}
+
+/*SECTION*/
+
+.title2{
+    font-size: 30px;
+}
+
+.PT50{
+    padding-top: 50PX;
+}
+
+.PB50{
+    padding-bottom: 50PX;
+}
+
+.check{
+    float: left;
+}
+
+
