@@ -1,0 +1,52 @@
+
+/*GENERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+/*HEADER*/
+
+
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+     
+}
+
+.container{
+    margin: 0;
+    height: 100px;
+    line-height: 100px;
+
+}
+
+.box{
+    display: inline-block;
+    
+}
+
+
+li{
+    display: inline-block;
+    text-decoration: none;
+}
+
+.left{
+    float: left;
+}
+
+/*MAIN*/
+
+.container1{
+    width: 100%;
+    height: 800px;
+    margin-top: 0;
+    background-color:#b4d0e7;
+}
