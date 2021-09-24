@@ -88,7 +88,7 @@ h1{
 
 /*BIG CONTAINER*/
 
-.big-container::after{
+.table1::after{
     content: "";
     display: table;
     clear: both;
@@ -98,7 +98,7 @@ h1{
     padding-top: 200px;
     padding-left: 200px;
     padding-right: 200px;
-    text-align: center;
+    
 }
 
 /*SECTION*/
@@ -117,6 +117,23 @@ h1{
 
 .check{
     float: left;
+    height: 100px;
 }
 
+.table1{
+    margin-top: 150px;
+}
+.table{
+    width: 30%;
+    height: 150px;
+    border:#dcdcde 1px solid ;
+}
 
+.center{
+    float: right;
+}
+
+.right{
+    float: right;
+    margin: 0 55px;
+}
