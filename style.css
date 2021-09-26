@@ -120,13 +120,15 @@ h1{
     height: 100px;
 }
 
+/*TABLE*/
 .table1{
     margin-top: 150px;
 }
+
 .table{
     width: 30%;
-    height: 150px;
-    border:#dcdcde 1px solid ;
+    height: 600px;
+    border:#dcdcde 1px solid ;   
 }
 
 .center{
@@ -136,4 +138,31 @@ h1{
 .right{
     float: right;
     margin: 0 55px;
+}
+
+/*HEAD TABLE*/
+.head-table{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+hr{
+    border:#dcdcde 1px solid ;   
+}
+
+/*BODY TABLE*/
+
+.body-table{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+}
+
+.body2-table{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-top: 60px;
+
 }
