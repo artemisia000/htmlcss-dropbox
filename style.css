@@ -127,7 +127,7 @@ h1{
 
 .table{
     width: 30%;
-    height: 700px;
+    height: 1100px;
     border:#dcdcde 1px solid ;   
 }
 
@@ -141,6 +141,7 @@ h1{
 }
 
 /*HEAD TABLE*/
+
 .head-table{
     height: 50px;
     line-height: 50px;
@@ -161,17 +162,22 @@ hr{
     font-weight: 600;
 }
 
-.part-1{
-    font-size: 13px;
+.part-1 {
+    font-size: 14px;
     font-weight:500;
     line-height: 50px;
-    margin-top: 60px;
+    padding-top: 30px;
     padding-bottom: 20px;
 }
 
+h2 h3{
+    font-weight: 800;
+}
+
+
 .mese{
     color: #798693;
-    font-size:13px ;
+    font-size:14px ;
 }
 
 .line{
