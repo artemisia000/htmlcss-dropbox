@@ -127,7 +127,7 @@ h1{
 
 .table{
     width: 30%;
-    height: 600px;
+    height: 700px;
     border:#dcdcde 1px solid ;   
 }
 
@@ -146,6 +146,7 @@ h1{
     line-height: 50px;
     text-align: center;
 }
+
 hr{
     border:#dcdcde 1px solid ;   
 }
@@ -157,12 +158,36 @@ hr{
     padding-left: 30px;
     padding-right: 30px;
     line-height: 30px;
+    font-weight: 600;
 }
 
-.body2-table{
+.part-1{
     font-size: 13px;
-    font-weight: 400;
+    font-weight:500;
     line-height: 50px;
     margin-top: 60px;
+    padding-bottom: 20px;
+}
 
+.mese{
+    color: #798693;
+    font-size:13px ;
+}
+
+.line{
+    width: 30%;
+}
+
+.bt-blue{
+    background-color:#0061ff;
+    color: #fff;
+    height: 40px;
+    width: 100%;
+    padding: 60px auto;
+    border: #0061ff;
+}
+
+.acquista{
+    color: #0061ff;
+    text-decoration: underline;
 }
