@@ -48,6 +48,7 @@ li{
 
 /*MAIN*/
 
+
 .container1{
     width: 100%;
     height: 700px;
@@ -234,6 +235,7 @@ h2 h3{
 .pat-sx{
     background-image: url(../htmlcss-dropbox/img/partner.png);
     display: inline-block;
+    background-position: center;
     background-size: cover;
     width: 55%;
     height: 500px;
@@ -272,3 +274,43 @@ h2 h3{
 .right{
     float: right;
 }
+
+/*BRAND-CUBE*/
+
+.brand-cube::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.brand-cube{
+    width: 100%;
+    margin-top: 50px;
+    height: 400px;
+    display: inline-block;
+}
+
+.cube-left{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    float: left;
+}
+
+.cube-center{
+    width: 600px;
+    height: 400px;
+    background-color: #dcdcde;
+    
+}
+
+
+.cube-right{
+    background-color: cadetblue;
+    width: 400px;
+    float: right;
+    height: 400px;
+    display: inline-block;
+}
+
+
