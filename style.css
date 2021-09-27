@@ -358,3 +358,15 @@ h2 h3{
 .channel{
     background-color:#ffd830 ;
 }
+
+/*CUBE-CENTER*/
+
+.text-cube{
+    padding: 50px 50px;
+}
+
+.des{
+    width: 30%;
+    height: 30%;
+ 
+}
