@@ -368,5 +368,35 @@ h2 h3{
 .des{
     width: 30%;
     height: 30%;
+}
+
+.porta-dropbox{
+    width: 100%;
+    height:700px;
+    margin-top: 0;
+    background-color:#b4d0e7; 
+}
+
+
+/*PORTA-DROPBOX*/
+
+.sx{
+    color:#61082b ;
+    width: 50%;
+    font-size: 30px;
+    padding-left: 180px;
+    transform: translate(0,70%);
+}
+
+.dx{
+    width: 50%;
+    height: 700px;
+   
+}
+
+
+.bt-dx{
+    border:#fff 1px solid;
  
 }
+
