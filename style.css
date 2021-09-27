@@ -268,7 +268,7 @@ h2 h3{
 }
 
 .central{
-    float: left;
+    float: right;
 }
 
 .right{
@@ -319,6 +319,14 @@ h2 h3{
     
 }
 
+.brand-img{
+    width: 50%;
+    height: 50%;
+    object-fit: fill;
+    transform: translate(+50%,+50%);
+    filter: invert(100%);
+}
+
 .designit{
     background-color:#a2d39b ;
 }
@@ -333,4 +341,20 @@ h2 h3{
 
 .topps{
     background-color:#ff1c1c ;
+}
+
+.bycicle{
+    background-color: #d5001f;
+}
+
+.hearst{
+    background-color:#b4d0e7 ;
+}
+
+.lonely{
+    background-color: #0d2481;
+}
+
+.channel{
+    background-color:#ffd830 ;
 }
