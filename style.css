@@ -249,7 +249,26 @@ h2 h3{
     float: right;
 }
 
-.lollo{
-    background-color: aqua;
+
+/*COLONNE*/
+
+
+.colonne{
+    margin-top: 80px;
+    width: 100%;
+    display: inline-block;
+}
+
+.col{
+    background-color: bisque;
     width: 30%;
+    height: 600px;
+}
+
+.central{
+    float: right;
+}
+
+.right{
+    float: right;
 }
