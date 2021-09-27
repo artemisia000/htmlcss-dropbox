@@ -268,7 +268,7 @@ h2 h3{
 }
 
 .central{
-    float: right;
+    float: left;
 }
 
 .right{
@@ -291,26 +291,46 @@ h2 h3{
 }
 
 .cube-left{
-    width: 400px;
-    height: 400px;
-    background-color: blueviolet;
-    float: left;
-}
-
-.cube-center{
-    width: 600px;
-    height: 400px;
-    background-color: #dcdcde;
-    
-}
-
-
-.cube-right{
-    background-color: cadetblue;
-    width: 400px;
-    float: right;
+    width: 30%;
     height: 400px;
     display: inline-block;
 }
 
+.cube-center{
+    width: 40%;
+    height: 400px;
+    background-color: #dcdcde;
+    display: inline-block;
+    
+}
 
+.cube-right{
+    background-color: cadetblue;
+    width: 30%;
+    height: 400px;
+    display: inline-block;
+}
+
+.small-cube{
+    width: 50%;
+    height: 200px;
+    display: inline-block;
+    float: left;
+    
+}
+
+.designit{
+    background-color:#a2d39b ;
+}
+
+.asu{
+    background-color:#61082b ;
+}
+
+.florida{
+    background-color:#0093ce ;
+}
+
+.topps{
+    background-color:#ff1c1c ;
+}
