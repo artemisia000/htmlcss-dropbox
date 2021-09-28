@@ -18,8 +18,20 @@
 
 .fs-15{
     font-size: 15px;
-    line-height: 25px;
 }
+
+.still{
+    color: #000;
+    text-decoration: none;
+}
+    
+.bt-blu{
+    background-color:#0061ff;
+    color: #fff;
+    height: 35px;
+    border:#0061ff 1px solid ;  
+}
+
 
 /*HEADER*/
 
@@ -42,13 +54,15 @@
 .box{
     width: 50%;
     display: inline-block;
+    font-weight: 500;
 }
-
 
 .navig{
     display: inline-block;
-    text-decoration: none;
+    padding-right: 15px;
+    padding-left: 15px;
 }
+
 
 .left{
     float: left;
@@ -283,10 +297,9 @@ hr{
 }
 
 .col-images{
-    width: 100%;
-    height: 50%;
-    background-size: cover;
-    object-fit: fill;
+    width: 80%;
+    height: 35%;
+    background-size: contain;
 }
 
 .col-1{
@@ -500,7 +513,7 @@ hr{
 
 .marker{
     font-size: 12px;
-    text-decoration: none;
+    list-style: none;
 }
 
 #title3{
