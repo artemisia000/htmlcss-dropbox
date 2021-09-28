@@ -380,7 +380,12 @@ h2 h3{
 
 /*PORTA-DROPBOX*/
 
-.sx{
+.destra{
+    width: 50%;
+    height: 700px;
+}
+
+.sinistra{
     color:#61082b ;
     width: 50%;
     font-size: 30px;
@@ -388,15 +393,9 @@ h2 h3{
     transform: translate(0,70%);
 }
 
-.dx{
-    width: 50%;
-    height: 700px;
-   
-}
-
-
 .bt-dx{
-    border:#fff 1px solid;
- 
+    border: #fff 1px solid;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 280px;
 }
-
