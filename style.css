@@ -40,9 +40,8 @@
 }
 
 .box{
+    width: 50%;
     display: inline-block;
-
-    
 }
 
 
@@ -246,7 +245,7 @@ hr{
 }
 
 .pat-sx{
-    background-image: url(../htmlcss-dropbox/img/partner.png);
+    background-image: url(./img/partner.png);
     display: inline-block;
     background-position: center;
     background-size: cover;
@@ -291,27 +290,27 @@ hr{
 }
 
 .col-1{
-    background-image: url(../htmlcss-dropbox/img/business-feature-switching-tools.png)
+    background-image: url(./img/business-feature-switching-tools.png)
 }
 
 .col-2{
-    background-image: url(../htmlcss-dropbox/img/business-feature-coordinate-it.png);
+    background-image: url(./img/business-feature-coordinate-it.png);
     
 }
 
 .col-3{
-    background-image: url(../htmlcss-dropbox/img/business-feature-multi-device.png);
+    background-image: url(./img/business-feature-multi-device.png);
 }
 
 .col-4{
-    background-image: url(../htmlcss-dropbox/img/business-feature-integrations-it.png);
+    background-image: url(./img/business-feature-integrations-it.png);
 }
 .col-5{
-    background-image: url(../htmlcss-dropbox/img/business-feature-send-files-it.png);
+    background-image: url(./img/business-feature-send-files-it.png);
 }
 
 .col-6{
-    background-image: url(../htmlcss-dropbox/img/business-feature-security.png);
+    background-image: url(./img/business-feature-security.png);
 }
 
 .title4{
