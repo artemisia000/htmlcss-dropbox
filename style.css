@@ -63,6 +63,15 @@
     padding-left: 15px;
 }
 
+#supporto{
+    margin-left: 250px;
+}
+
+#inizia{
+    width: 150px;
+    text-decoration: none;
+}
+
 
 .left{
     float: left;
@@ -141,6 +150,7 @@ h1{
     padding-bottom: 50PX;
 }
 
+
 .check{
     float: left;
     height: 100px;
@@ -197,6 +207,10 @@ hr{
     padding-bottom: 20px;
 }
 
+.list{
+    list-style: none;
+}
+
 .title1{
     font-weight: 800;
 }
@@ -210,6 +224,8 @@ hr{
 .line{
     width: 30%;
 }
+
+
 
 .bt-white{
     width: 200px;
