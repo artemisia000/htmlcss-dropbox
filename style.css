@@ -61,6 +61,15 @@
     display: inline-block;
     padding-right: 15px;
     padding-left: 15px;
+    transition: 1s;
+}
+
+.box  li {
+    border-top: 7px solid transparent;
+}
+
+.box li:hover{
+    border-top-color:#dcdcde ;
 }
 
 #supporto{
@@ -71,6 +80,7 @@
     width: 150px;
     text-decoration: none;
 }
+
 
 
 .left{
@@ -551,9 +561,6 @@ hr{
 #title3{
     padding-bottom: 15px;
 }
-
-
-
 
 
 
