@@ -240,14 +240,30 @@ hr{
     border:#dcdcde 1px solid ; 
     display: inline-block;
     margin-top: 55px;
+}
 
+.body-end{
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    width: 70%;
 }
 
 .dx{
     float: right;
-    width: calc(27%);
-    
+    width: 30%;
+    height: 300px;
 }
+
+.contatta{
+    width: 90%;
+    transform: translate(0,-450%);
+
+}
+
+
 
 /*PATNER*/
 
