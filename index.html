@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Dropbox</title>
@@ -15,47 +15,42 @@
 
 <body>
     <!--header-->
-    <header>
-        <div class="container clearfix">
-            <div class="box left" >
-                <ul>
-                    <li class="navig"><a class="still" href="#"><img src="./img/logo-small.png" alt=""></a></li>
-                    <li class="navig"><a class="still" href="#">Perché Dropbox</a></li>
-                    <li class="navig"><a class="still" href="#">Funzioni</a></li>
-                    <li class="navig"><a class="still" href="#">Piani e Prezzi  
-                      </a></li>
-                </ul>
-            </div>
-
-            <div class="box right" >
-                <ul>
-                    <li class="navig" id="supporto" ><a class="still" href="#">Supporto</a></li>
-                    <li class="navig"><a  class="still"href="#">Contatta l'ufficio vendite</a></li>
-                    <li class="navig"><a class="still" href="#">Accedi</a></li>
-                    <li class="navig " ><a class="bt-blu" id="inizia" href="#">Inizia</a></li>
-                    
-                </ul>
-            </div>
+    <header class="clearfix">
+        <div class="box left" >
+            <ul>
+                <li class="navig"><a class="still" href="#"><img src="./img/logo-small.png" alt=""></a></li>
+                <li class="navig"><a class="still" href="#">Perché Dropbox</a></li>
+                <li class="navig"><a class="still" href="#">Funzioni</a></li>
+                <li class="navig"><a class="still" href="#">Piani e Prezzi  
+                    </a></li>
+            </ul>
         </div>
+
+        <div class="box right" >
+            <ul>
+                <li class="navig" id="supporto" ><a class="still" href="#">Supporto</a></li>
+                <li class="navig"><a  class="still"href="#">Contatta l'ufficio vendite</a></li>
+                <li class="navig"><a class="still" href="#">Accedi</a></li>
+                <li class="navig " ><a class="bt-blue" id="inizia" href="#">Inizia</a></li>              
+            </ul>
+        </div>     
     </header>
     <!--main-->
-    <main class="container1">
-        <div class="banner" >
+    <main class="container-fluid">
+        <div class="container banner clearfix" >
             <div class="title">
-            <h1 >Tutto ciò che ti serve per il lavoro, in un unico posto. </h1>
+               <h1 >Tutto ciò che ti serve per il lavoro, in un unico posto. </h1>
             </div>
-            <div class="text">
-                <p>Finalmente tutti i tuoi strumenti,contenuti e collaboratori sono accessibili dallo stesso posto.Dropbox Business è più di uno spazio di archiviazione sicuro:è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+            <div class="left text">            
+                <p class="mb-50">Finalmente tutti i tuoi strumenti,contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro:è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                <button class="bt-blue mb-20" >Inizia la tua prova gratuita</button>
+                <p class="mb-50">Annulla in qualsiasi momento</p>
+                <i class="fa-solid fa-arrow-down"></i>
             </div>
-
-            <button class="bt-blu" >Inizia la tua prova gratuita</button>
-
-            <div class="link" ><a class="still" href="#">Annulla in qualsiasi momento</a>
-            </div>    
+            <div class="right jumbo">
+                <img  src="./img/jumbo.png" alt="">
+            </div>
         </div>
-
-            <img class="jumbo" src="./img/jumbo.png" alt="">
-
     </main>
 
     <!--section-->

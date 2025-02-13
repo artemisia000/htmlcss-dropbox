@@ -20,41 +20,75 @@
     font-size: 15px;
 }
 
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+p{
+    font-weight: 500;
+    line-height: 30px;
+}
+
+h1{
+    font-size: 73px;
+    margin-bottom: 50px;
+}
+
+
 .still{
     color: #000;
     text-decoration: none;
 }
-    
-.bt-blu{
-    background-color:#0061ff;
-    color: #fff;
-    height: 35px;
-    border:#0061ff 1px solid ;  
+
+
+/*ICONS*/
+.fa-arrow-down{
+    font-size: 50px;
+    animation: bouncing 0.8s linear infinite alternate;
+
 }
+
+@keyframes bouncing {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(30px);
+    }
+}
+
+
 
 
 /*HEADER*/
 
-
-.container::after{
-    content: "";
-    display: table;
-    clear: both;
-     
+.container{
+    width: 70%;
+    margin: 0 auto;
 }
 
-.container{
+header{
     width: 100%;
-    margin: 0;
     height: 100px;
     line-height: 100px;
-
+    padding: 0 50px;
 }
 
 .box{
     width: 50%;
     display: inline-block;
-    font-weight: 500;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float:right;
+    text-align: right;
 }
 
 .navig{
@@ -82,54 +116,50 @@
 }
 
 
+.link{
+    padding-top: 25px;
+    color: #000;
+}
 
-.left{
-    float: left;
-}
-.right{
-    float:right;
-}
+
     
 /*MAIN*/
-
-
-.container1{
-    width: 100%;
-    height: 700px;
-    margin-top: 0;
+main{
     background-color:#b4d0e7;
-    position: relative;
+    height: 800px;
 }
 
 .banner{
+    position: relative;
     padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
-h1{
-    font-size: 73px;
-    padding-bottom: 50px;
-}
 
 .text{
     width: 25%;
     padding-bottom: 25px;
 }
 
-.link{
-    padding-top: 25px;
-    color: #000;
-}
 
 .jumbo{
+    width: 70%;
+    background-size: cover;
+    
+}
+
+.jumbo img{
+    object-fit: cover;
+    width: 100%;
+}
+
+/* .jumbo{
     position: absolute;
     width: 50%;
-    height: 50%%;
+
     background-size: cover;
     transform: translate(70%,-50%);
     z-index: 2;
-}
+} */
 
 /*BIG CONTAINER*/
 
@@ -182,10 +212,7 @@ h1{
     margin: 0 55px;
 }
 
-.right{
-    float: left;
-  
-}
+
 
 /*HEAD TABLE*/
 
@@ -235,21 +262,18 @@ hr{
     width: 30%;
 }
 
-
+/*BUTTONS*/
 
 .bt-white{
-    width: 200px;
-    height:35px ;
+    padding: 8px 20px;
     background-color: #fff;
     border: #000 1px solid;
-
 }
+
 .bt-blue{
     background-color:#0061ff;
     color: #fff;
-    height: 35px;
-    width: 100%;
-    padding: 60px auto;
+    padding: 8px 20px;
     border: #0061ff;
 }
 
@@ -376,9 +400,6 @@ hr{
     float: left;
 }
 
-.right{
-    float: left;
-}
 
 /*BRAND-CUBE*/
 
