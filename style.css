@@ -99,47 +99,47 @@ header{
     width: 100%;
     height: 100px;
     line-height: 100px;
-    padding: 0 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 1;
 }
 
 .box{
     width: 50%;
     display: inline-block;
+    padding: 0 60px;
 }
 
 .box:nth-child(2){
     text-align: right;
 }
 
+
 .box ul li a{
     color: #000;
-    font-weight: 500;
+    font-weight: 500;   
 }
 
-.box li:hover{
-    border-top-color:#dcdcde ;
+.box ul li {
+    border-bottom:3px solid transparent;
+    transition: 1s;
 }
 
+.box ul li:hover {
+    border-bottom:3px solid #0061ff;
+}
 
 .navig{
     display: inline-block;
     padding-right: 15px;
-    padding-left: 15px;
-    transition: 1s;
+    padding-left: 15px; 
 }
 
-.box  li {
-    border-top: 7px solid transparent;
-}
-
-.box li:hover{
-    border-top-color:#dcdcde ;
-}
-
-
-.link{
-    padding-top: 25px;
-    color: #000;
+.navig img{
+   vertical-align: middle;
+   width: 120px;
 }
 
 
@@ -147,14 +147,12 @@ header{
 /*MAIN*/
 main{
     background-color:#b4d0e7;
-    height: 850px;
+    height: 900px;
 }
 
 .banner{
     position: relative;
-    padding-top: 100px;
 }
-
 
 .text{
     width: 25%;
@@ -175,9 +173,6 @@ main{
 
 
 /*SECTION*/
-
-
-
 .check{
     float: left;
     margin-top: 80px;
@@ -190,18 +185,11 @@ main{
 
 
 /*TABLE*/
-
-
-
-/*HEAD TABLE*/
-
 .head-table{
     height: 50px;
     line-height: 50px;
     text-align: center;
 }
-
-
 
 .table1{
     width: 100%;
@@ -273,9 +261,6 @@ main{
     width: 300px;  
 }
 
-
-
-
 /*TITLES*/
 .title1{
     font-weight: 800;
@@ -284,10 +269,6 @@ main{
 
 .title2{
     font-size: 35px;
-}
-
-#title3{
-    padding-bottom: 15px;
 }
 
 
@@ -313,6 +294,7 @@ main{
     background-color: #fff;
     border: #000 2px solid;
     font-weight: 500;
+    font-size: 16px;
 }
 
 .bt-white-reverse{
@@ -321,6 +303,7 @@ main{
     border: #fff 2px solid;
     color: #000;
     font-weight: 500;
+    font-size: 16px;
 }
 
 .bt-blue{
@@ -328,6 +311,7 @@ main{
     color: #fff !important;
     padding: 8px 20px;
     border: #0061ff;
+    font-size: 16px;
 }
 
 .acquista{
@@ -377,7 +361,7 @@ main{
 
 .col{
     width: 30%;
-    padding: 60px;
+    padding: 25px;
 }
 
 .col.central{
@@ -394,9 +378,6 @@ main{
     height: 100%;
     object-fit: cover;
 }
-
-
-
 
 /*BRAND-CUBE*/
 
@@ -423,16 +404,18 @@ main{
 }
 
 .small-cube{
-    width: 50%;
+    width: calc(100% / 2);
     height: calc(100% / 2);
     float: left;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .small-cube img{
     width: 50%;
     object-fit: cover;
     filter: invert(100%);
-    transform: translate(50% , 50%);
 }
 
 
@@ -480,19 +463,21 @@ main{
 }
 
 
-
 /*PORTA-DROPBOX*/
-
 .porta-dropbox{
     width: 100%;
-    padding: 150px 0;
+    padding: 100px 0;
     margin-top: 0;
     background-color:#b4d0e7; 
 }
 
 .destra{
-    width: 50%;
-    
+    width: 50%;  
+}
+
+.destra button{
+    width: 300px;
+    margin-top: 15px;  
 }
 
 .sinistra{
@@ -502,15 +487,7 @@ main{
 }
 
 
-
 /*MENU A TENDINA*/
-
-/* .menu{
-    width: 100%;
-    height: 500px;
-    margin-top: 0;
-} */
-
 .roll{    
     padding: 80px 0;
 }
@@ -534,28 +511,33 @@ main{
 
 .foot{
     width: 100%;
-    height: 500px;
+    padding: 100px 0;
     background-color: #000;
     color: #fff;
     display: inline-block;
-    padding: 50px;
 }
 
 .contact{
-    width: 19%;
+    width: calc(100% / 5);
+    height: 100%;
     display: inline-block; 
     line-height: 25px; 
-    transform: translate(30%,30%);
-        
+    text-align: left;     
 }
 
-.two .three .four .five{
-    float: left;
+.contact h3 {
+    font-size: 22px;
+    padding-bottom: 30px;
 }
 
 .marker{
-    font-size: 12px;
+    font-size: 16px;
     list-style: none;
+}
+
+.foot-language {
+    width: 30%;
+    padding: 50px 0 0 0;
 }
 
 
